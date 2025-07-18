@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX-DECORATION-BREAK</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="columns-2">
+        <span class="box-decoration-slice bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white break-before-column...">
+        Hello<br>World
+        </span>
+        <br>
+        <span class="box-decoration-clone bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white ...">
+        Hello<br />World
+        </span>
+    </div>
+</body>
+</html>
