@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <label class="peer ...">
+        <input type="checkbox" checked />
+    </label>
+        <button class="bg-red-400 hidden transition-all not-peer-has-checked:opacity-0 peer-has-checked:block ...">
+            I hide
+        </button>
+    <label class="peer ...">
+        <input type="checkbox" checked />
+    </label>
+        <button class="bg-red-400 hidden transition-all transition-discrete not-peer-has-checked:opacity-0 peer-has-checked:block ...">
+            I fade out
+        </button>
+</body>
+</html>
